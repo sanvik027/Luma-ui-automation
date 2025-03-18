@@ -3,7 +3,8 @@ Common Configuration file
 """
 import pytest
 from selenium import  webdriver
-@pytest.fixture(scope='function',autouse=True)
+driver= None
+@pytest.fixture(scope='class',autouse=True)
 def setup(request, browser,url):
     global driver
 
@@ -26,11 +27,11 @@ def pytest_addoption(parser):
     parser.addoption("--browser")
     parser.addoption("--url")
 
-@pytest.fixture(scope="function", autouse=True)
+@pytest.fixture(scope="class", autouse=True)
 def browser(request):
     return request.config.getoption("--browser")
 
-@pytest.fixture(scope="function", autouse=True)
+@pytest.fixture(scope="class", autouse=True)
 def url(request):
     return request.config.getoption("--url")
 

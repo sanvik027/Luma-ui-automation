@@ -11,11 +11,15 @@ class LoginPage(BaseDriver):
         self.driver = driver
 
     # Locators
+    SIGIN_LINK = "(//a[normalize-space()='Sign In'])[1]"
     CUSTOMER_EMAIL = "email"
     CUSTOMER_PASSWORD = "pass"
     LOGIN_BTN = "send2"
     WELCOME_TXT = "(//span[contains(text(),'Chiranjibi')])[1]"
     HOME_PAGE_TXT = "//h1"
+
+    def navigate_signin(self):
+        return self.wait_for_presence_of_element(By.XPATH,self.SIGIN_LINK)
 
     def get_cust_email(self):
         return self.wait_until_element_is_clickable(By.ID,self.CUSTOMER_EMAIL)
@@ -42,6 +46,7 @@ class LoginPage(BaseDriver):
         self.get_login_btn().click()
 
     def login(self,email,password):
+        self.navigate_signin().click()
         self.enter_email(email)
         self.enter_password(password)
         self.page_scroll()

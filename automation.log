@@ -1,60 +1,16 @@
-03/17/2025 07:01:53 PM - INFO - LoginPage : Logging Successful
-03/17/2025 07:01:53 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 07:01:53 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 07:02:01 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 07:02:09 PM - INFO - LoginPage : Logging Successful
-03/17/2025 07:02:17 PM - INFO - TestValidLogin : Testing valid login with email: None
-03/17/2025 07:02:27 PM - INFO - TestValidLogin : Testing valid login with email: None
-03/17/2025 07:14:41 PM - INFO - LoginPage : Logging Successful
-03/17/2025 07:14:41 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 07:14:41 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 07:15:03 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_19@maildrop.cc
-03/17/2025 07:15:14 PM - INFO - LoginPage : Logging Successful
-03/17/2025 07:26:03 PM - INFO - LoginPage : Logging Successful
-03/17/2025 07:26:03 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 07:26:03 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 07:26:31 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 07:27:18 PM - INFO - LoginPage : Logging Successful
-03/17/2025 08:58:09 PM - INFO - LoginPage : Logging Successful
-03/17/2025 08:58:09 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 08:58:09 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 08:58:18 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 08:58:24 PM - INFO - LoginPage : Logging Successful
-03/17/2025 09:23:17 PM - INFO - LoginPage : Logging Successful
-03/17/2025 09:23:17 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 09:23:17 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 09:23:29 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 09:23:33 PM - INFO - LoginPage : Logging Successful
-03/17/2025 09:26:50 PM - INFO - LoginPage : Logging Successful
-03/17/2025 09:26:50 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 09:26:50 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 09:27:02 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 09:27:08 PM - INFO - LoginPage : Logging Successful
-03/17/2025 09:29:52 PM - INFO - LoginPage : Logging Successful
-03/17/2025 09:29:52 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 09:29:52 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 09:30:18 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 09:30:28 PM - INFO - LoginPage : Logging Successful
-03/17/2025 10:18:32 PM - INFO - LoginPage : Logging Successful
-03/17/2025 10:18:32 PM - INFO - LoginPage : Page title mathced in case of invalid Credentials
-03/17/2025 10:18:32 PM - INFO - TestValidLogin : Invalid login executed
-03/17/2025 10:18:53 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 10:19:00 PM - INFO - LoginPage : Logging Successful
-03/17/2025 10:21:22 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 10:21:29 PM - INFO - LoginPage : Logging Successful
-03/17/2025 10:23:42 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 10:24:21 PM - INFO - LoginPage : Logging Successful
-03/17/2025 10:25:29 PM - INFO - TestValidLogin : Testing valid login with email: chiranjibi_18@maildrop.cc
-03/17/2025 10:25:36 PM - INFO - LoginPage : Logging Successful
-03/18/2025 12:39:58 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 12:40:38 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 12:42:31 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 12:43:13 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 12:44:53 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 12:45:08 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 01:00:39 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 01:00:46 AM - INFO - RegistrationPage : Homepage header text verified successfully
-03/18/2025 01:00:48 AM - INFO - DashboardPage : Logout Successful
-03/18/2025 01:00:58 AM - INFO - TestValidLogin : Testing Registration Page
-03/18/2025 01:01:03 AM - INFO - RegistrationPage : Homepage header text verified successfully
-03/18/2025 01:01:06 AM - INFO - DashboardPage : Logout Successful
+03/18/2025 12:35:57 PM - INFO - TestValidLogin : Testing login with email: tu03@maildrop.cc, expected result: valid
+03/18/2025 12:35:57 PM - INFO - TestValidLogin : Testing login with email: tu03@maildrop.cc, expected result: valid
+03/18/2025 12:36:05 PM - INFO - LoginPage : Logging Successful
+03/18/2025 12:36:05 PM - INFO - LoginPage : Header text verified in case of valid credentials
+03/18/2025 12:36:05 PM - INFO - TestValidLogin : Testing login with email: tu05@maildrop.cc, expected result: invalid
+03/18/2025 12:36:05 PM - INFO - TestValidLogin : Testing login with email: tu05@maildrop.cc, expected result: invalid
+03/18/2025 12:36:47 PM - INFO - TestValidLogin : Testing Registration Page
+03/18/2025 12:36:47 PM - INFO - TestValidLogin : Testing Registration Page
+03/18/2025 12:36:52 PM - INFO - TestValidLogin : Testing Registration Page
+03/18/2025 12:36:52 PM - INFO - TestValidLogin : Testing Registration Page
+03/18/2025 12:45:36 PM - INFO - TestValidLogin : Testing Registration Page
+03/18/2025 12:45:43 PM - INFO - RegistrationPage : Homepage header text verified successfully
+03/18/2025 12:45:45 PM - INFO - DashboardPage : Logout Successful
+03/18/2025 12:45:45 PM - INFO - TestValidLogin : Testing Registration Page
+03/18/2025 12:45:51 PM - INFO - RegistrationPage : Homepage header text verified successfully
+03/18/2025 12:45:53 PM - INFO - DashboardPage : Logout Successful
