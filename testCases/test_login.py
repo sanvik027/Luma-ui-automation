@@ -12,6 +12,7 @@ from utilities.utility import Utils
 class TestValidLogin(softest.TestCase):
     log = Utils().custom_logger()
 
+
     @pytest.fixture(autouse=True)
     def setup_login_page(self):
         self.login_page = LoginPage(self.driver)

@@ -6,6 +6,8 @@ from base.base_driver import BaseDriver
 
 class LoginPage(BaseDriver):
     log = Utils().custom_logger(log_level=logging.DEBUG)
+    # Setting an implicit wait
+
     def __init__(self,driver):
         super().__init__(driver)
         self.driver = driver
