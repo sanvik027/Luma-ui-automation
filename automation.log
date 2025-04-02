@@ -14,3 +14,21 @@
 03/18/2025 12:45:45 PM - INFO - TestValidLogin : Testing Registration Page
 03/18/2025 12:45:51 PM - INFO - RegistrationPage : Homepage header text verified successfully
 03/18/2025 12:45:53 PM - INFO - DashboardPage : Logout Successful
+03/31/2025 10:59:54 PM - INFO - TestValidLogin : Testing Registration Page
+03/31/2025 10:59:54 PM - INFO - TestValidLogin : Testing Registration Page
+03/31/2025 11:00:02 PM - INFO - TestValidLogin : Testing Registration Page
+03/31/2025 11:00:02 PM - INFO - TestValidLogin : Testing Registration Page
+04/02/2025 03:30:40 PM - INFO - TestValidLogin : Testing login with email: tu03@maildrop.cc, expected result: valid
+04/02/2025 03:30:40 PM - INFO - TestValidLogin : Testing login with email: tu03@maildrop.cc, expected result: valid
+04/02/2025 03:31:04 PM - INFO - LoginPage : Logging Successful
+04/02/2025 03:31:04 PM - INFO - LoginPage : Header text verified in case of valid credentials
+04/02/2025 03:31:04 PM - INFO - TestValidLogin : Testing login with email: tu05@maildrop.cc, expected result: invalid
+04/02/2025 03:31:04 PM - INFO - TestValidLogin : Testing login with email: tu05@maildrop.cc, expected result: invalid
+04/02/2025 03:32:11 PM - INFO - TestValidLogin : Testing Registration Page
+04/02/2025 03:32:11 PM - INFO - TestValidLogin : Testing Registration Page
+04/02/2025 03:32:17 PM - INFO - RegistrationPage : Homepage header text verified successfully
+04/02/2025 03:32:19 PM - INFO - DashboardPage : Logout Successful
+04/02/2025 03:32:19 PM - INFO - TestValidLogin : Testing Registration Page
+04/02/2025 03:32:19 PM - INFO - TestValidLogin : Testing Registration Page
+04/02/2025 03:32:25 PM - INFO - RegistrationPage : Homepage header text verified successfully
+04/02/2025 03:32:28 PM - INFO - DashboardPage : Logout Successful

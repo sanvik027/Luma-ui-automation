@@ -16,7 +16,6 @@ class TestValidLogin(softest.TestCase):
 
     @data(*Utils.read_excel_data("C:\\Users\\chiranjibi\\PycharmProjects\\LumaShop\\testData\\user_data.xlsx", 'Sheet1'))
     @unpack
-    @pytest.mark.order(1)
     def test_create_user_account(self,first_name,last_name,email,password,confirm_password):
         self.log.info("Testing Registration Page")
         self.reg_page.create_account(first_name, last_name, email, password,confirm_password)
